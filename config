@@ -642,10 +642,7 @@ time-alt = %H:%M
 ;format-prefix = " "
 format-prefix = 
 format-prefix-foreground = ${colors.foreground}
-;format-underline = ${colors.foreground-alt}
 format-underline = #66d9ff
-
-
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 label = %date% %time%
@@ -657,16 +654,11 @@ type = custom/script
 exec = echo ""
 ;exec = echo " "
 tail = true
-;format-foreground = ${colors.foreground}
 format-foreground = #8080ff
-
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = #8080ff
-;format-underline = ${colors.foreground-alt}
 click-left = chromium &
-click-right = killall Chromium | killall Chromium | killall chromium-deskto
-; format-prefix = ""
 label = %output%
 
 #################################################################
@@ -725,8 +717,6 @@ label-empty-padding = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
-
-################################################################################
 
 
 ################################################################################
@@ -937,16 +927,12 @@ menu-0-2-exec = betterlockscreen -l dimblur && sleep 1 && systemctl suspend
 menu-0-3 = 
 menu-0-3-exec = systemctl poweroff
 
-
 format-background = ${colors.background}
-;format-foreground = ${colors.foreground}
 format-foreground = #ff1a1a
-
-;format-underline = ${colors.foreground-alt}
 format-underline = #ff1a1a
 format-padding = 1
 
-; monitor
+
 
 ###################################################################
 ########## blueberry is the name of the Bluetooth process #########
@@ -956,17 +942,13 @@ format-padding = 1
 type = custom/script
 exec = echo ""
 ;exec = echo " "
-
 tail = true
 format-foreground = #8080ff
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = ${colors.foreground-alt}
 click-left = blueberry &
-click-right = killall Blueberry | killall blueberry | killall blueberry-deskto
-; format-prefix = ""
 label = %output%
-
 
 
 
@@ -978,17 +960,12 @@ label = %output%
 type = custom/script
 exec = echo ""
 ;exec = echo " "
-
 tail = true
 format-foreground = #ffb366
-
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = #ff9933
-
 click-left = thunar &
-click-right = killall Thunar | killall thunar | killall thunar-deskto
-; format-prefix = ""
 label = %output%
 
 
@@ -1001,22 +978,13 @@ label = %output%
 type = custom/script
 exec = echo ""
 ;exec = echo " "
-
 tail = true
 format-foreground = #8c8c8c
-
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = #8c8c8c
-
 click-left = urxvt &
-click-right = killall Urxvt | killall urxvt | killall urxvt-deskto
-; format-prefix = ""
 label = %output%
-
-
-#################################################################
-
 
 
 
@@ -1028,18 +996,10 @@ label = %output%
 type = custom/script
 exec = echo "  "
 ;exec = echo " "
-
 tail = true
 format-foreground = #cc3399
-
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = #cc3399
-
 click-left = pavucontrol &
-click-right = killall Pavucontrol | killall pavucontrol | killall pavucontrol-deskto
-; format-prefix = ""
 label = %output%
-
-
-#################################################################
