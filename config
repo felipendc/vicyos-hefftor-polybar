@@ -649,19 +649,6 @@ label = %date% %time%
 
 #################################################################
 
-[module/chromium]
-type = custom/script
-exec = echo ""
-;exec = echo " "
-tail = true
-format-foreground = #8080ff
-format-background = ${colors.background}
-format-prefix-foreground = #738adb
-format-underline = #8080ff
-click-left = chromium &
-label = %output%
-
-#################################################################
 
 [module/ewmh]
 type = internal/xworkspaces
@@ -935,7 +922,7 @@ format-padding = 1
 
 
 ###################################################################
-########## blueberry is the name of the Bluetooth process #########
+########## Blueberry is the name of the Bluetooth process #########
 ###################################################################
 
 [module/blueberry]
@@ -971,7 +958,7 @@ label = %output%
 
 
 #################################
-##########  Urxvt Terminal #########
+########  Urxvt Terminal ########
 #################################
 
 [module/urxvt]
@@ -1002,4 +989,19 @@ format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = #cc3399
 click-left = pavucontrol &
+label = %output%
+
+
+#################################################################
+
+[module/chromium]
+type = custom/script
+exec = echo ""
+;exec = echo " "
+tail = true
+format-foreground = #8080ff
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline = #8080ff
+click-left = chromium &
 label = %output%
