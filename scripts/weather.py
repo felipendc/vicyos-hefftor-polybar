@@ -31,11 +31,14 @@ try:
     if REQ.status_code == 200:
         CURRENT = REQ.json()["weather"][0]["description"].capitalize()
         TEMP = int(float(REQ.json()["main"]["temp"]))
+
+# This is the default setup.
 #        print("{}, {} °{}".format(CURRENT, TEMP, UNIT_KEY)) 
+
 
 # The line below, just show or "print" the weather fetch result in °C without any string. 
 # So that, I get more room on the polybar (It's perfect if you own a Laptop).
-        print("{} °{}".format(TEMP, UNIT_KEY))
+        print("{} °{}".format(TEMP, UNIT_KEY)) 
     else:
         print("Error: BAD HTTP STATUS CODE " + str(REQ.status_code))
 except (ValueError, IOError):
