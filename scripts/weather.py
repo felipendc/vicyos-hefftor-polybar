@@ -20,6 +20,7 @@ API_KEY = "756edce7e9d4c385ef9499a53492678c"
 UNITS = "Metric"
 UNIT_KEY = "C"
 #UNIT_KEY = "F"
+#LANG = "pt"
 LANG = "en"
 #LANG = "nl"
 #LANG = "hu"
@@ -30,13 +31,12 @@ try:
     if REQ.status_code == 200:
         CURRENT = REQ.json()["weather"][0]["description"].capitalize()
         TEMP = int(float(REQ.json()["main"]["temp"]))
-        print("{}, {} °{}".format(CURRENT, TEMP, UNIT_KEY))
+#        print("{}, {} °{}".format(CURRENT, TEMP, UNIT_KEY)) 
+
+# The line below, just show or "print" the weather fetch result in °C without any string. 
+# So that, I get more room on the polybar (It's perfect if you own a Laptop).
+        print("{} °{}".format(TEMP, UNIT_KEY))
     else:
-        print("No info " + str(REQ.status_code))
+        print("Error: BAD HTTP STATUS CODE " + str(REQ.status_code))
 except (ValueError, IOError):
-    print("No data info")
-
-
-#        print("Error: BAD HTTP STATUS CODE " + str(REQ.status_code))
-#except (ValueError, IOError):
-#    print("Error: Unable print the data")
+    print("Error: Unable print the data")

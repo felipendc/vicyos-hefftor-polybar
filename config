@@ -36,8 +36,8 @@ format-foreground = #FF0000
 format-background = #00FF00
 format-underline =
 format-overline =
-format-spacing =
-format-padding =
+format-spacing = 
+format-padding = 
 format-margin =
 format-offset =
 
@@ -98,11 +98,11 @@ enable-ipc = true
 ;border-size = 2
 ;border-top-size = 3
 ;border-bottom-size = 0
-border-left-size  = 150
-border-right-size = 150
+border-left-size  = 16
+border-right-size = 16
 border-color = #00000000
 
-padding-left = 2
+padding-left = 1
 padding-right = 2
 
 module-margin-left = 1
@@ -118,18 +118,19 @@ font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 font-4 = "icomoon:size=15;3"
 
 
-modules-left =  cpu-graph volume chromium blueberry
-modules-center =  ewmh
-modules-right = temperature1 weather date powermenu
+modules-left = cpu-graph ewmh xwindow
+modules-center =  
+modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
 
-;tray-detached = false
-;tray-offset-x = 100
-;tray-offset-y = 0
-;tray-padding = 
-;tray-maxsize = 24
-;tray-scale = 1.0
-;tray-position = center
-;tray-background = ${colors.background}
+tray-detached = false
+tray-offset-x = 
+tray-offset-y = 0
+tray-padding = 
+tray-maxsize = 24
+tray-scale = 1.0
+tray-position = center
+tray-background = ${colors.background}
+
 
 scroll-up = herbstclient use_index -1
 scroll-down = herbstclient use_index +1
@@ -145,13 +146,13 @@ scroll-down = herbstclient use_index +1
 
 [bar/mainbar-herbstluftwm-extra]
 monitor = ${env:MONITOR}
+;monitor = DisplayPort-0
 ;monitor-fallback = HDMI1
 width = 100%
 height = 30
-offset-x = 0
-offset-y = 0
-radius-top = 10
-radius-bottom = 10
+offset-x = 
+offset-y = 1%
+radius = 10
 
 fixed-center = true
 bottom = false
@@ -170,19 +171,18 @@ override-redirect = true
 ; See the Messaging wiki page for more details.
 enable-ipc = true
 
-;border-size = 0
-border-top-size = 3
-border-bottom-size = 0
-border-left-size  = 150
-border-right-size = 150
-
+;border-size = 2
+;border-top-size = 3
+;border-bottom-size = 0
+border-left-size  = 16
+border-right-size = 16
 border-color = #00000000
 
 padding-left = 1
-padding-right = 5
+padding-right = 2
 
-module-margin-left = 3
-module-margin-right = 3
+module-margin-left = 1
+module-margin-right = 1
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
@@ -190,22 +190,29 @@ font-1 = "FontAwesome:size=11;3"
 font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
+; To import devicons/icomoon font to enable Chromium icon
+font-4 = "icomoon:size=15;3"
 
-modules-left = volume memory1 cpu-graph 
-modules-center = ewmh
-modules-right = discord filesystem date powermenu
 
-;tray-detached = false
-;tray-offset-x = 0
-;tray-offset-y = 0
-;tray-padding = 2
-;tray-maxsize = 20
-;tray-scale = 1.0
-;tray-position = right
-;tray-background = ${colors.background}
+modules-left = cpu-graph ewmh xwindow
+modules-center =  
+modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
+
+tray-detached = false
+tray-offset-x = 
+tray-offset-y = 0
+tray-padding = 
+tray-maxsize = 24
+tray-scale = 1.0
+tray-position = center
+tray-background = ${colors.background}
+
 
 scroll-up = herbstclient use_index -1
 scroll-down = herbstclient use_index +1
+
+
+;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ################################################################################
 ################################################################################
@@ -215,12 +222,14 @@ scroll-down = herbstclient use_index +1
 
 [bar/mainbar-bspwm]
 monitor = ${env:MONITOR}
+;monitor = DisplayPort-0
 ;monitor-fallback = HDMI1
 width = 100%
 height = 30
-offset-x = 0
+offset-x = 
 offset-y = 1%
 radius = 10
+
 fixed-center = true
 bottom = false
 separator = 
@@ -231,25 +240,25 @@ foreground = ${colors.foreground}
 line-size = 2
 line-color = #f00
 
-wm-restack = bspwm
+;wm-restack = bspwm
 override-redirect = true
 
 ; Enable support for inter-process messaging
 ; See the Messaging wiki page for more details.
 enable-ipc = true
 
-border-size = 0
-border-left-size  = 150
-border-right-size = 150
-;border-top-size = 0
-;border-bottom-size = 25
+;border-size = 2
+;border-top-size = 3
+;border-bottom-size = 0
+border-left-size  = 16
+border-right-size = 16
 border-color = #00000000
 
-padding-left = 5
-padding-right = 5
+padding-left = 1
+padding-right = 2
 
-module-margin-left = 3
-module-margin-right = 3
+module-margin-left = 1
+module-margin-right = 1
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
@@ -257,22 +266,27 @@ font-1 = "FontAwesome:size=11;3"
 font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
+; To import devicons/icomoon font to enable Chromium icon
+font-4 = "icomoon:size=15;3"
 
-modules-left = cpu-graph volume memory1
-modules-center = bspwm
-modules-right = discord filesystem battery date powermenu
 
-;tray-detached = false
-;tray-offset-x = 0
-;tray-offset-y = 0
-;tray-padding = 2
-;tray-maxsize = 20
-;tray-scale = 1.0
-;tray-position = right
-;tray-background = ${colors.background}
+modules-left = cpu-graph ewmh xwindow
+modules-center =  
+modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
 
-scroll-up = bspwm-desknext
-scroll-down = bspwm-deskprev
+tray-detached = false
+tray-offset-x = 
+tray-offset-y = 0
+tray-padding = 
+tray-maxsize = 24
+tray-scale = 1.0
+tray-position = center
+tray-background = ${colors.background}
+
+
+scroll-up = herbstclient use_index -1
+scroll-down = herbstclient use_index +1
+
 
 
 ################################################################################
@@ -283,15 +297,17 @@ scroll-down = bspwm-deskprev
 
 [bar/mainbar-bspwm-extra]
 monitor = ${env:MONITOR}
+;monitor = DisplayPort-0
 ;monitor-fallback = HDMI1
 width = 100%
 height = 30
-;offset-x = 1%
-;offset-y = 1%
-radius = 0.0
+offset-x = 
+offset-y = 1%
+radius = 10
+
 fixed-center = true
-bottom = true
-separator = |
+bottom = false
+separator = 
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -299,47 +315,53 @@ foreground = ${colors.foreground}
 line-size = 2
 line-color = #f00
 
-wm-restack = bspwm
+;wm-restack = bspwm
 override-redirect = true
 
 ; Enable support for inter-process messaging
 ; See the Messaging wiki page for more details.
 enable-ipc = true
 
-border-size = 0
-;border-left-size = 0
-;border-right-size = 25
-;border-top-size = 0
-;border-bottom-size = 25
+;border-size = 2
+;border-top-size = 3
+;border-bottom-size = 0
+border-left-size  = 16
+border-right-size = 16
 border-color = #00000000
 
-padding-left = 0
-padding-right = 1
+padding-left = 1
+padding-right = 2
 
-module-margin-left = 3
-module-margin-right = 3
+module-margin-left = 1
+module-margin-right = 1
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "Noto Sans:size=10;0"
-font-1 = "FontAwesome:size=13;0"
-font-2 = "Noto Sans:size=10;0"
-font-3 = "Noto Sans Mono:size=10;0"
+font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
+font-1 = "FontAwesome:size=11;3"
+font-2 = "Noto Sans Mono:size=15;4"
+font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
-modules-left = load-average
-modules-center = networkspeeddown networkspeedup
-modules-right = filesystem
+; To import devicons/icomoon font to enable Chromium icon
+font-4 = "icomoon:size=15;3"
 
-;tray-detached = false
-;tray-offset-x = 0
-;tray-offset-y = 0
-;tray-padding = 2
-;tray-maxsize = 20
-;tray-scale = 1.0
-;tray-position = right
-;tray-background = ${colors.background}
 
-scroll-up = bspwm-desknext
-scroll-down = bspwm-deskprev
+modules-left = cpu-graph ewmh xwindow
+modules-center =  
+modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
+
+tray-detached = false
+tray-offset-x = 
+tray-offset-y = 0
+tray-padding = 
+tray-maxsize = 24
+tray-scale = 1.0
+tray-position = center
+tray-background = ${colors.background}
+
+
+scroll-up = herbstclient use_index -1
+scroll-down = herbstclient use_index +1
+
 
 
 ################################################################################
@@ -416,6 +438,9 @@ label-private-foreground = ${colors.foreground}
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
+;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 ################################################################################
 ###############################################################################
@@ -426,7 +451,7 @@ format-background = ${colors.background}
 
 [module/cpu-graph]
 type = internal/cpu
-interval = 0.06
+interval = 0.08
 ;format = " <ramp-coreload>"
 format = " <ramp-coreload>"
 format-margin = 1
@@ -450,7 +475,7 @@ ramp-coreload-font = 3
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 format-underline = ${colors.foreground-alt}
-format-padding = 3
+format-padding = 2
 
 
 [module/memory1]
@@ -458,7 +483,7 @@ type = internal/memory
 
 ; Seconds to sleep between updates
 ; Default: 1
-interval = 2
+interval = 3
 ; Available tags:
 ;   <label> (default)
 ;   <bar-used>
@@ -607,7 +632,7 @@ animation-charging-framerate = 750
 ;https://github.com/jaagr/polybar/wiki/Module:-date
 type = internal/date
 ; Seconds to sleep between updates
-interval = 5
+interval = 30
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 date = "%a %d %b"
@@ -617,7 +642,10 @@ time-alt = %H:%M
 ;format-prefix = " "
 format-prefix = 
 format-prefix-foreground = ${colors.foreground}
-format-underline = ${colors.foreground-alt}
+;format-underline = ${colors.foreground-alt}
+format-underline = #66d9ff
+
+
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 label = %date% %time%
@@ -628,12 +656,14 @@ label = %date% %time%
 type = custom/script
 exec = echo ""
 ;exec = echo " "
-interval = 0
 tail = true
-format-foreground = ${colors.foreground}
+;format-foreground = ${colors.foreground}
+format-foreground = #8080ff
+
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
-format-underline = ${colors.foreground-alt}
+format-underline = #8080ff
+;format-underline = ${colors.foreground-alt}
 click-left = chromium &
 click-right = killall Chromium | killall Chromium | killall chromium-deskto
 ; format-prefix = ""
@@ -643,7 +673,6 @@ label = %output%
 
 [module/ewmh]
 type = internal/xworkspaces
-
 pin-workspaces = false
 enable-click = true
 enable-scroll = true
@@ -664,135 +693,41 @@ icon-9 = 10;
 format = <label-state>
 label-monitor = %name%
 
-label-active = 
-label-active-foreground = ${colors.third}
-label-active-background = ${colors.background}
-label-active-underline= ${colors.foreground-alt}
-label-active-padding = 2
+;  monitor-buttom-bezel
+; 
+;  tick
+;  rounded-dots
+label-active = 
+;label-active-foreground = ${colors.third}
+label-active-foreground = #e91640
 
-label-occupied = 
+label-active-background = ${colors.background}
+;label-active-underline= ${colors.foreground-alt}
+label-active-underline= #e91640
+
+label-active-padding = 1
+
+label-occupied = 
 label-occupied-foreground = ${colors.third}
 label-occupied-background = ${colors.background}
-label-occupied-padding = 2
+label-occupied-padding = 1
 
-label-urgent = 
+label-urgent = 
 label-urgent-foreground = ${colors.alert}
 label-urgent-background = ${colors.background}
 label-urgent-underline = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 1
 
-
-label-empty = •
+;bk-label-empty = •
+label-empty = 
 label-empty-foreground = ${colors.foreground}
-label-empty-padding = 2
+label-empty-padding = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
 
 ################################################################################
 
-[module/filesystem]
-;https://github.com/jaagr/polybar/wiki/Module:-filesystem
-type = internal/fs
-
-; Mountpoints to display
-mount-0 = /
-;mount-1 = /home
-;mount-2 = /var
-
-; Seconds to sleep between updates
-; Default: 30
-interval = 30
-
-; Display fixed precision values
-; Default: false
-fixed-values = false
-
-; Spacing between entries
-; Default: 2
-spacing = 4
-
-; Available tags:
-;   <label-mounted> (default)
-;   <bar-free>
-;   <bar-used>
-;   <ramp-capacity>
-format-mounted = <label-mounted>
-format-mounted-foreground = ${colors.foreground}
-format-mounted-background = ${colors.background}
-format-mounted-underline = ${colors.foreground-alt}
-
-; Available tokens:
-;   %mountpoint%
-;   %type%
-;   %fsname%
-;   %percentage_free%
-;   %percentage_used%
-;   %total%
-;   %free%
-;   %used%
-; Default: %mountpoint% %percentage_free%%
-label-mounted =   %percentage_free%%
-;label-mounted = %mountpoint% : %used% used of %total%
-
-; Available tokens:
-;   %mountpoint%
-; Default: %mountpoint% is not mounted
-label-unmounted =   not mounted
-format-unmounted-foreground = ${colors.foreground}
-format-unmounted-background = ${colors.background}
-;format-unmounted-underline = ${colors.alert}
-
-################################################################################
-
-[module/load-average]
-type = custom/script
-exec = perl ~/.config/polybar/scripts/load.pl
-interval = 1
-
-;HOW TO SET IT MINIMAL 10 CHARACTERS - HIDDEN BEHIND SYSTEM ICONS
-;label = %output%
-label = %output%
-
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-;format-prefix = "  "
-;format-prefix-foreground = ${colors.foreground}
-format-underline = ${colors.foreground-alt}
-
-################################################################################
-
-[module/vpn]
-type = custom/script
-exec = perl ~/.config/polybar/scripts/vpn.pl
-interval = 1
-
-;HOW TO SET IT MINIMAL 10 CHARACTERS - HIDDEN BEHIND SYSTEM ICONS
-;label = %output%
-label = %output%
-
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-;format-prefix = "  "
-;format-prefix-foreground = ${colors.foreground}
-format-underline = #62FF00
-
-################################################################################
-
-[module/mem]
-type = custom/script
-exec = perl ~/.config/polybar/scripts/memory.pl
-interval = 1
-
-;HOW TO SET IT MINIMAL 10 CHARACTERS - HIDDEN BEHIND SYSTEM ICONS
-;label = %output%
-label = %output%
-
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-;format-prefix = "  "
-;format-prefix-foreground = ${colors.foreground}
-format-underline = #62FF00
 
 ################################################################################
 
@@ -837,23 +772,6 @@ format-background = ${colors.background}
 ################################################################################
 
 
-[module/spotify1]
-;https://github.com/NicholasFeldman/dotfiles/blob/master/polybar/.config/polybar/spotify.sh
-type = custom/script
-exec = ~/.config/polybar/scripts/spotify1.sh
-interval = 1
-
-;format = <label>
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-format-padding = 2
-format-underline = #0f0
-format-prefix = "  "
-format-prefix-foreground = #0f0
-label = %output:0:150%
-
-################################################################################
-
 [module/temperature1]
 ;https://github.com/jaagr/polybar/wiki/Module:-temperature
 type = internal/temperature
@@ -870,11 +788,15 @@ thermal-zone = 0
 ; Default reverts to thermal zone setting
 hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
 
-warn-temperature = 100
+warn-temperature = 100 ; The default is "70". In my case, I set this to "100" by my own risk!
 format = <ramp> <label>
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #c72581
+format-underline = #ff6600
+
+
+
+
 format-warn = <ramp> <label-warn>
 format-warn-underline = #c7254f
 label = %temperature%
@@ -893,11 +815,12 @@ ramp-foreground =${colors.foreground}
 [module/temperature2]
 type = custom/script
 exec = ~/.config/polybar/scripts/tempcores.sh
-interval = 2
+interval = 3
 format-padding = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #C1B93E
+format-underline = #9966ff
+
 format-prefix-foreground = #C1B93E
 label =  %output:0:150:%
 
@@ -909,12 +832,12 @@ type = internal/alsa
 format-volume = "<label-volume>  <bar-volume>"
 format-volume-underline = ${colors.foreground-alt}
 master-mixer = Master
-label-volume = " "
+label-volume = ""
 label-volume-foreground = ${colors.foreground}
 
 label-muted = muted
 
-bar-volume-width = 5
+bar-volume-width = 3
 bar-volume-foreground-0 = ${colors.third}
 bar-volume-foreground-1 = ${colors.third}
 bar-volume-foreground-2 = ${colors.third}
@@ -941,7 +864,7 @@ format-muted-background = ${colors.background}
 
 [module/weather]
 type = custom/script
-interval = 0.8
+interval = 60
 format = <label>
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
@@ -953,17 +876,17 @@ tail = true
 
 ################################################################################
 
-[module/ ]
+[module/xbacklight]
 ;https://github.com/jaagr/polybar/wiki/Module:-xbacklight
 type = internal/xbacklight
 format = <label> <bar>
-format-prefix = "   "
+format-prefix = 
 format-prefix-foreground = ${colors.foreground}
 format-prefix-background = ${colors.background}
 format-prefix-underline = #9f78e1
 format-underline = #9f78e1
-label = %percentage%%
-bar-width = 10
+label =
+bar-width = 4
 bar-indicator = 
 bar-indicator-foreground = #fff
 bar-indicator-font = 2
@@ -971,7 +894,7 @@ bar-fill = 
 bar-fill-font = 2
 bar-fill-foreground = #9f78e1
 bar-empty = 
-bar-empty-font = 2
+bar-empty-font = 1
 bar-empty-foreground = #fff
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
@@ -986,7 +909,7 @@ type = internal/xwindow
 ;   %title%
 ; Default: %title%
 label = %title%
-label-maxlen = 50
+label-maxlen = 25
 
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
@@ -994,50 +917,6 @@ format-background = ${colors.background}
 ###############################################################################
 
 
-
-#################################
-########## File Manager #########
-#################################
-
-[module/thunar]
-type = custom/script
-exec = echo ""
-;exec = echo " "
-interval = 0
-tail = true
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-format-prefix-foreground = #738adb
-format-underline = ${colors.foreground-alt}
-click-left = blueberry &
-click-right = killall Thunar | killall thunar | killall thunar-deskto
-; format-prefix = ""
-label = %output%
-
-
-#################################################################
-
-###################################################################
-########## blueberry is the name of the Bluetooth process #########
-###################################################################
-
-[module/blueberry]
-type = custom/script
-exec = echo ""
-;exec = echo " "
-interval = 0
-tail = true
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-format-prefix-foreground = #738adb
-format-underline = ${colors.foreground-alt}
-click-left = blueberry &
-click-right = killall Blueberry | killall blueberry | killall blueberry-deskto
-; format-prefix = ""
-label = %output%
-
-
-#################################################################
 [module/powermenu]
 type = custom/menu
 
@@ -1060,20 +939,107 @@ menu-0-3-exec = systemctl poweroff
 
 
 format-background = ${colors.background}
-format-foreground = ${colors.foreground}
-format-underline = ${colors.foreground-alt}
+;format-foreground = ${colors.foreground}
+format-foreground = #ff1a1a
+
+;format-underline = ${colors.foreground-alt}
+format-underline = #ff1a1a
 format-padding = 1
 
+; monitor
 
-;  Bluetooth Icon (FontAwesomwe)
-;  Terminal Icon (Icomoon)
-;  File manager (FontAwesomwe)
-;  Facebook (FontAwesome)
-;  Whatsapp (FontAwesome)
-;  Telegram Icon (FontAwesomwe)
-;  Calculator Icon (FontAwesome)
-;  Discord Icon Temporary (FontAwesome)
-;  OnlyOffice Icon (FontAwesome)
-;  Youtube Icon (FontAwesome)
-;  Brightness Icon (FontAwesome)
-; 
+###################################################################
+########## blueberry is the name of the Bluetooth process #########
+###################################################################
+
+[module/blueberry]
+type = custom/script
+exec = echo ""
+;exec = echo " "
+
+tail = true
+format-foreground = #8080ff
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline = ${colors.foreground-alt}
+click-left = blueberry &
+click-right = killall Blueberry | killall blueberry | killall blueberry-deskto
+; format-prefix = ""
+label = %output%
+
+
+
+
+#################################
+########## File Manager #########
+#################################
+
+[module/thunar]
+type = custom/script
+exec = echo ""
+;exec = echo " "
+
+tail = true
+format-foreground = #ffb366
+
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline = #ff9933
+
+click-left = thunar &
+click-right = killall Thunar | killall thunar | killall thunar-deskto
+; format-prefix = ""
+label = %output%
+
+
+
+#################################
+##########  Urxvt Terminal #########
+#################################
+
+[module/urxvt]
+type = custom/script
+exec = echo ""
+;exec = echo " "
+
+tail = true
+format-foreground = #8c8c8c
+
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline = #8c8c8c
+
+click-left = urxvt &
+click-right = killall Urxvt | killall urxvt | killall urxvt-deskto
+; format-prefix = ""
+label = %output%
+
+
+#################################################################
+
+
+
+
+#################################
+##########  Pavucontrol #########
+#################################
+
+[module/pavucontrol]
+type = custom/script
+exec = echo "  "
+;exec = echo " "
+
+tail = true
+format-foreground = #cc3399
+
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline = #cc3399
+
+click-left = pavucontrol &
+click-right = killall Pavucontrol | killall pavucontrol | killall pavucontrol-deskto
+; format-prefix = ""
+label = %output%
+
+
+#################################################################
