@@ -16,7 +16,7 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 **This is the very new modified version of this Polybar. It might seem kind of bloated but, dont't worry. It's just my Laptop screen.**<br />
 
 In this version, I customized it to suit my daily needs. And I'm also been a good guy to my younger brother and for some newbies. Why?<br /> 
-Look at those "Terminal, File Manager Chromium Browser and Pavucontrol". It will give them a hand. And the newbies I mean: "My Mom & Sister".<br /> 
+Look at those "Terminal, File Manager, Chromium Browser and Pavucontrol". It will give them a hand. And the newbies I mean: "My Mom & Sister".<br /> 
 
 ![Demo](https://i.imgur.com/ns7i3tR.jpg)
 
