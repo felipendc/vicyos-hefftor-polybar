@@ -94,7 +94,7 @@ As in the screenshot down below.<br />
 ------
 
 
-***Border right and left resized to get more room***<br />
+***Border right and left resized to get more room*** <br />
 
 As you know, my laptop has a "14.0-inch display". So, I had to resized the Polybar borders to get more space.<br /> 
 In this Polybar version I've set the the default to: 16 for each side.<br /> 
@@ -104,7 +104,7 @@ You can play around with the numbers, to fit your needs.<br />
 ------
 
 
-***Here you play around with the position of the modules... ***<br />
+***Here you can play around with the position of the modules...*** <br />
 
 Make your self at home! Feel free to make them sit your needs!<br />
 ![Demo](https://i.imgur.com/nSLWsXH.jpg)
@@ -112,7 +112,7 @@ Make your self at home! Feel free to make them sit your needs!<br />
 ------
 
 
-***Pavucontrol is in the building!!!***<br />
+***Pavucontrol is in the building!!!*** <br />
 
 I got very happy when I managed to create this module made it work. Why?<br />
 I think, I've forgot to mention that I also have a Desktop and It's very handy, when it comes to switch between audio-output.<br />
