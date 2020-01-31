@@ -37,7 +37,7 @@ and<br />
 
 5 - Just to wrap up about the Sys-Tray subject... I could've put it on the left or right side of the Polybar. But, it got all weird, due to the lack of "Sys-Tray-Radius" support to get the rounded borders.<br />  
 
-I don't know if you noticed but, I also changed the Workspace Icon with a circle rounded with dots. I wanned something diffent and cool.<br />
+I don't know if you noticed but, I also changed the Workspace Icon with a circle, rounded with dots. I wanned something diffent and cool.<br />
 
 ![Demo](https://i.imgur.com/1Yp2CWl.jpg)
 
