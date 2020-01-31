@@ -96,6 +96,17 @@ e.g:<br />
 
 As in the screenshot down below.<br />
 
+**Additional Information!*** <br />
+
+To switch to your weather "city or location" you just need to edit the file "weather.py" at: <br />
+
+<pre>/home/user/.config/polybar/scripts/</pre>
+
+or<br />
+
+<pre> nano ~/.config/polybar/scripts/weather.py</pre>
+
+
 ![Demo](https://i.imgur.com/rvHFbNd.jpg)
 
 ------
