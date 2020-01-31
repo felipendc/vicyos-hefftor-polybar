@@ -116,7 +116,7 @@ Make your self at home! Feel free to make them sit your needs!<br />
 
 ***Pavucontrol is now in the building!!!*** <br />
 
-I got very happy when I managed to create this module made it work. Why?<br />
+I got very happy when I managed to create this module made it work on the polybar. Why?<br />
 I think, I've forgot to mention that I also have a Desktop and this module is very handy, when it comes to switch between audio-output.<br />
 
 The reason I made a module for pavucontrol is because the system-tray doesn't have its option.<br />
