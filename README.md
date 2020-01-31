@@ -2,7 +2,7 @@
 Down below you will find a modified version of the Polybar baked-in [Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk). 
 
 
-*** I know you also want to listen to this song... Hey, [Don't](https://www.youtube.com/watch?v=wVd0s7scl5U) tell [anybody](https://www.youtube.com/watch?v=hQ4r_kcvClE)... *** <br />
+**I know you also want to listen to this song... Hey, [Don't](https://www.youtube.com/watch?v=wVd0s7scl5U) tell [anybody](https://www.youtube.com/watch?v=hQ4r_kcvClE)...** <br />
 ![Demo-Pip](https://i.imgur.com/WHWA6ZE.jpg)
 
 ------
