@@ -1,9 +1,10 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/polybar-themes/master/previews/logo.png) <br />
-Down below, you will find my modified version of the Polybar baked-in [Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk). 
-------
+Down below you will find a modified version of the Polybar baked-in [Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk). 
 
-***I know you also want to listen to this song... Hey, [Don't](https://www.youtube.com/watch?v=wVd0s7scl5U) tell [anybody](https://www.youtube.com/watch?v=hQ4r_kcvClE)...*** <br />
+
+*** I know you also want to listen to this song... Hey, [Don't](https://www.youtube.com/watch?v=wVd0s7scl5U) tell [anybody](https://www.youtube.com/watch?v=hQ4r_kcvClE)... *** <br />
 ![Demo-Pip](https://i.imgur.com/WHWA6ZE.jpg)
+
 ------
 
 ***This is the very new modified version of this Polybar. It might seem kind of bloated but, dont't worry. It's just my Laptop screen.***<br />
@@ -12,7 +13,7 @@ Look at those "Terminal, File Manager Chromium Browser and Pavucontrol". It will
 ![Demo](https://i.imgur.com/ns7i3tR.jpg)
 ------
 
-***Oh, boy... Is the System-Tray back??? This is awesome!!!! But, what about the Workspaces???***<br />
+***Oh, boy... Is the System-Tray back??? This is awesome! But, what about the Workspaces???***<br />
 Well, I was obligated to change the position of the Workspaces from the center to the left side. Why?<br />
 It's simple...<br />
 
