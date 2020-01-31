@@ -181,7 +181,7 @@ Calm down, relax... Don't panic!<br />
 In order to use that 'Browser Icon' on the Polybar, don't forget to install 'Chromium'.<br />
 
 
-If you are using any Distro based on Arch Linux use, this command:<br />
+If you are using any Distro based on Arch Linux, like me... use this command:<br />
 <pre>trizen -S chromium</pre>
 
 ##
