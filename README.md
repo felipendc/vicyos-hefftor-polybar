@@ -254,4 +254,3 @@ ChmOd in ArcoLinux-Group on Discord
 And Me: [Felipe Ndc (Vicyos)](https://www.youtube.com/channel/UCHgDwde2kTdKI53LRm3pTtQ/videos)
 
 ------
-
