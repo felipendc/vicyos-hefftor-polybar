@@ -251,6 +251,6 @@ This step-by-step to connect to your wifi, was only possible thanks to [Brad Hef
 [Brad Heffernan](https://www.youtube.com/user/shamrock677)<br />
 [Marcos Oliveira](https://terminalroot.com.br/2019/07/uma-colecao-de-temas-prontos-para-seu-polybar.html)<br />
 [Felipe Ndc (Vicyos)](https://www.youtube.com/channel/UCHgDwde2kTdKI53LRm3pTtQ/videos) Yeah. It's me.<br />
-ChmOd in ArcoLinux-Group on Discord<br />
+[ChmOd](https://discordapp.com/invite/R2amEEz) in ArcoLinux-Group on Discord<br />
 
 ------
