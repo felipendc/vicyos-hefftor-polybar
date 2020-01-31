@@ -5,7 +5,7 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 
 ------
 
-***Warning:*** This Polybar is only supported with Herbstluftwm (HLWM) and BSPWM. (I've just tested in Herbstluftwm, so far)
+***Warning:*** This Polybar is only supported with Herbstluftwm (HLWM) and BSPWM. (I've just tested in Herbstluftwm, so far).
 
 ------
 
