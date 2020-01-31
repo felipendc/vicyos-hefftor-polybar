@@ -39,6 +39,8 @@ and<br />
 
 I don't know if you noticed but, I also changed the Workspace Icon with a circle, rounded with dots. I wanned something diffent and cool.<br />
 
+PS: Yep! The Volume Bar Icone was downsized...<br />
+
 ![Demo](https://i.imgur.com/1Yp2CWl.jpg)
 
 ------
