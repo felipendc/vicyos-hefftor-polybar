@@ -184,7 +184,8 @@ And edit the *'Config'* file. <br />
 ------
 
 
-## Now, if you decide to remove the System-Tray... You will need to follow these steps down below. 
+## // IMPORTANT NOTE: 
+### Now, if you decide to remove the System-Tray... You will need to follow these steps down below. 
 
  ***Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />***
 
