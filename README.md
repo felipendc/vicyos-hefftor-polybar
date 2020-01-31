@@ -218,8 +218,8 @@ Then, use this command:<br />
 
 <pre>nmcli d wifi connect YYYYY password XXXXX</pre>
 
-Instead of YYYYY you will put the name of your wifi<br />
-Instead of XXXXX you will put your password<br />
+Instead of YYYYY you will put the name of the Wifi. Or in other words: "Wifi ID"<br />
+Instead of XXXXX you will put the Wifi password<br />
 
 ------
 
