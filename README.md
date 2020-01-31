@@ -35,15 +35,24 @@ and<br />
 
 5 - Just to wrap it up about the Sys-Tray... I could've put it on the left or right side. But, It got all weird due to the lack of "Radius" support to get the rounded borders.<br />  
 
-I don't know if you noticed but, I also changed the Workspace Icon with a circle rounded with dots. I wanned some thing diffent and cool.<br />
+I don't know if you noticed but, I also changed the Workspace Icon with a circle rounded with dots. I wanned something diffent and cool.<br />
 ![Demo](https://i.imgur.com/1Yp2CWl.jpg)
 
 ------
 
 
-***Now let's talk a little bit about this CPU-GRAPH. And, Nope. It's not a "Sound Spectrum". Yes! you were wrong. Hahahaha I was too, when I saw it for the first time.***<br />
-The screenshot down below, shows us the Cpu-Graph module. I took this screenshot just to show you that if you want to increase velocity of the interval between the bars updates,<br />
-you just need to chenge the line: ´´´interval = 0.08´´´ The default is:´´´0.08´´´ Change it to the namer who suits your need.<br />
+***Now, let's talk a little bit about this CPU-GRAPH. And, Nope. It's not a "Sound Spectrum". Yes! you were wrong. Hahahaha I was too, when I saw it for the first time.***<br />
+
+The screenshot down below, shows us the Cpu-Graph module. I took this screenshot just to show you that if you want to increase the velocity of the interval between the bars updates, you just need to chenge the line:<br /> 
+
+<pre>interval =</pre> 
+
+The default is:<br /> 
+
+<pre>interval = 0.08</pre> 
+
+Change it to the namer who suits your need.<br />
+
 ![Demo](https://i.imgur.com/8z7bifV.jpg)
 
 ------
