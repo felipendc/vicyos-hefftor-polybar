@@ -212,16 +212,6 @@ Well, It's pretty simple. You just need to go to:<br />
 ------
 
 
-***Hey, bruh, what if I don't want to use Chromium Browser? <br />***
-
-Well, It's pretty simple. You just need to go to:<br />
-
-<pre> cd ~/.config/polybar/</pre>
-
-And edit the *'Config'* file. <br />
-
-------
-
 
 ## // IMPORTANT NOTE: 
 ### Now, if you decide to remove the System-Tray... You will need to follow these steps down below. 
