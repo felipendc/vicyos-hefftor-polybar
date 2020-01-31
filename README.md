@@ -51,7 +51,7 @@ The default is:<br />
 
 <pre>interval = 0.08</pre> 
 
-Change it to the namer who suits your need.<br />
+Change it to your need.<br />
 
 ![Demo](https://i.imgur.com/8z7bifV.jpg)
 
