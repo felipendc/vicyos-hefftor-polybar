@@ -30,6 +30,7 @@ It's simple...<br />
 
 I don't know if you noticed but, I also changed the Workspace Icon with circle with dots. I wanned some thing diffent and cool.<br />
 ![Demo](https://i.imgur.com/1Yp2CWl.jpg)
+
 ------
 
 
@@ -37,6 +38,7 @@ I don't know if you noticed but, I also changed the Workspace Icon with circle w
 The screenshot down below, shows us the Cpu-Graph module. I took this screenshot just to show you that if you want to increase velocity of the interval between the bars updates,<br />
 you just need to chenge the line: ´´´interval = 0.08´´´ The default is:´´´0.08´´´ Change it to the namer who suits your need.<br />
 ![Demo](https://i.imgur.com/8z7bifV.jpg)
+
 ------
 
 
@@ -44,6 +46,7 @@ you just need to chenge the line: ´´´interval = 0.08´´´ The default is:´�
 It's very complicated when you are on a  "windows frame in HLWM" and you don't have any idea about the active windows name.<br />
 So, that's why it's back. And I like it.<br />
 ![Demo](https://i.imgur.com/XUq7Vq7.jpg)
+
 ------
 
 
@@ -65,6 +68,7 @@ e.g:<br />
 
 As in the screenshot down below.<br />
 ![Demo](https://i.imgur.com/rvHFbNd.jpg)
+
 ------
 
 
@@ -74,6 +78,7 @@ As you know, my laptop has a "14.0-inch display". So, I had to resized the Polyb
 In this Polybar version I've set the the default to: 16 for each side.<br /> 
 You can play around with the numbers, to fit your needs.<br />
 ![Demo](https://i.imgur.com/Aane1MZ.jpg)
+
 ------
 
 
@@ -81,6 +86,7 @@ You can play around with the numbers, to fit your needs.<br />
 
 Make your self at home! Feel free to make them sit your needs!<br />
 ![Demo](https://i.imgur.com/nSLWsXH.jpg)
+
 ------
 
 
@@ -92,6 +98,7 @@ The reason I made a module for pavucontrol is because the system-tray its option
 And I'm constantly switching the audio-output from Headset to the speakers. And as I said, I'm not the only one how uses the computer.<br />
 
 ![Demo](https://i.imgur.com/rgUo5ci.jpg)
+
 ------
 
 
@@ -99,6 +106,7 @@ And I'm constantly switching the audio-output from Headset to the speakers. And 
 
 Most of the modules on the Polybar has a diffrent icon and underline-format color for a better looking.<br />
 ![Demo](https://i.imgur.com/LeTMgC3.jpg)
+
 ------
 
 
@@ -107,6 +115,7 @@ Most of the modules on the Polybar has a diffrent icon and underline-format colo
 Now, in this Polybar with both borders-sized to 16, when you click on the Power Menu its not overlayed due to lack of space.<br />
 If you still get problems with it getting overlayed, you will just need to downsize it.<br />
 ![Demo](https://i.imgur.com/eQa4iBV.jpg)
+
 ------
 
 
@@ -118,6 +127,7 @@ In order to use that 'Browser Icon' on the Polybar, don't forget to install 'Chr
 
 <pre>trizen -S chromium</pre>
 ![Demo](https://i.imgur.com/RAdf6lZ.jpg)
+
 ------
 
 
@@ -127,6 +137,7 @@ In order to use that 'Browser Icon' on the Polybar, don't forget to install 'Chr
 Well, It's pretty simple. You just need to go to:<br />
 
 <pre> cd ~/.config/polybar/config</pre>
+
 ------
 
 
@@ -137,6 +148,7 @@ Well, It's pretty simple. You just need to go to:<br />
 <pre> cd ~/.config/polybar/</pre>
 
 And edit the *'Config'* file. <br />
+
 ------
 
 
