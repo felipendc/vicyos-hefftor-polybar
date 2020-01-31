@@ -247,12 +247,11 @@ This step-by-step to connect to your wifi, was only possible thanks to [Brad Hef
 ------
 
 ### Special Thanks to:
-
-´´´
 [Erick Doubis](https://www.youtube.com/user/maclover696)
 [Brad Heffernan](https://www.youtube.com/user/shamrock677)
 ChmOd in ArcoLinux-Group on Discord
 [Marcos Oliveira](https://terminalroot.com.br/2019/07/uma-colecao-de-temas-prontos-para-seu-polybar.html)
 And Me: [Felipe Ndc (Vicyos)](https://www.youtube.com/channel/UCHgDwde2kTdKI53LRm3pTtQ/videos)
-´´´
+
+------
 
