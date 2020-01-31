@@ -96,7 +96,7 @@ As in the screenshot down below.<br />
 
 ***Border right and left resized to get more room*** <br />
 
-As you know, my laptop has a "14.0-inch display".<br />  
+As you know, my laptop has a "14.0-inch display".<br />
 So, I had to resized the Polybar borders to get more space.<br /> 
 
 In this Polybar version I've set the the default to: 16 for each side.<br /> 
