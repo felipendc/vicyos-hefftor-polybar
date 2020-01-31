@@ -36,6 +36,7 @@ and<br />
 5 - Just to wrap it up about the Sys-Tray... I could've put it on the left or right side. But, It got all weird due to the lack of "Radius" support to get the rounded borders.<br />  
 
 I don't know if you noticed but, I also changed the Workspace Icon with a circle rounded with dots. I wanned something diffent and cool.<br />
+
 ![Demo](https://i.imgur.com/1Yp2CWl.jpg)
 
 ------
@@ -63,6 +64,7 @@ Change it to your needs.<br />
 It's very complicated when you are on a "frame in HLWM" and you don't have any idea about what's the active windows name.<br />
 
 So, that's why it's back. And I like it.<br />
+
 ![Demo](https://i.imgur.com/XUq7Vq7.jpg)
 
 ------
@@ -89,6 +91,7 @@ e.g:<br />
 <pre>30°C</pre> 
 
 As in the screenshot down below.<br />
+
 ![Demo](https://i.imgur.com/rvHFbNd.jpg)
 
 ------
@@ -101,6 +104,7 @@ So, I had to resized the Polybar borders to get more space.<br />
 
 In this Polybar version I've set the the default to: 16 for each side.<br /> 
 You can play around with the numbers, to fit your needs.<br />
+
 ![Demo](https://i.imgur.com/Aane1MZ.jpg)
 
 ------
@@ -109,6 +113,7 @@ You can play around with the numbers, to fit your needs.<br />
 ***Here you can play around with the position of the modules...*** <br />
 
 Make your self at home! Feel free to make them sit your needs!<br />
+
 ![Demo](https://i.imgur.com/nSLWsXH.jpg)
 
 ------
@@ -139,6 +144,7 @@ Most of the modules on the Polybar has a diffrent icon and underline-format colo
 
 Now, in this Polybar with both borders-sized to 16, when you click on the Power Menu its not overlayed due to lack of space.<br />
 If you still get problems with it getting overlayed, you will just need to downsize it.<br />
+
 ![Demo](https://i.imgur.com/eQa4iBV.jpg)
 
 ------
@@ -151,6 +157,7 @@ Calm down, relax... Don't panic!<br />
 In order to use that 'Browser Icon' on the Polybar, don't forget to install 'Chromium'.<br />
 
 <pre>trizen -S chromium</pre>
+
 ![Demo](https://i.imgur.com/RAdf6lZ.jpg)
 
 ------
