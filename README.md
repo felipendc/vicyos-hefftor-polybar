@@ -25,7 +25,7 @@ It's simple...<br />
 1 - I'm very dependent to the System-tray (Sys-tray), On my daily usage, I use some apps that are just available on the System-tray.<br />
 2 - I use my laptop most of the time, and everywhere I bring it with me.<br />
 3 - Wifi Icon. When the Sys-tray is enable, I don't need to use some lines of code to connect to the internet.<br />
-4 - Oh, boy, image my sister or my mom, trying to use: ``nmcli d wifi list´´ ; ``nmcli d wifi xxxx password xxxx´´ (Yeah, I now, I have commom sense).<br />
+4 - Oh, boy, image my sister or my mom, trying to use: ´´´nmcli d wifi list´´´ and ´´´nmcli d wifi xxxx password xxxx´´´ (Yeah, I now, I have commom sense).<br />
 5 - Just to wrap it up about the Sys-Tray... I could've put it on the left or right side. But, It got all weird due to the lack of "Radius" support to get the rounded borders.<br />  
 
 I don't know if you noticed but, I also changed the Workspace Icon with circle with dots. I wanned some thing diffent and cool.<br />
