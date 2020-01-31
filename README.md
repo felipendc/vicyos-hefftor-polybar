@@ -51,15 +51,17 @@ The default is:<br />
 
 <pre>interval = 0.08</pre> 
 
-Change it to your need.<br />
+Change it to your needs.<br />
 
 ![Demo](https://i.imgur.com/8z7bifV.jpg)
 
 ------
 
 
-*** The Xwindows is in the building this time!!! Here is why...***<br />
-It's very complicated when you are on a  "windows frame in HLWM" and you don't have any idea about the active windows name.<br />
+***The Xwindows is in the building this time!!! Here is why...***<br />
+
+It's very complicated when you are on a "frame in HLWM" and you don't have any idea about what's the active windows name.<br />
+
 So, that's why it's back. And I like it.<br />
 ![Demo](https://i.imgur.com/XUq7Vq7.jpg)
 
@@ -67,7 +69,9 @@ So, that's why it's back. And I like it.<br />
 
 
 ***Weather Module, and why it's very import to bring it up***<br />
-This is the part where you'll learn to do your modifications! I decided to take this screenshot make it easy to you to understand.<br />
+
+This is the part where you will learn how to do your modifications!<br /> 
+I decided to take this screenshot, to make it easy for you to understand.<br />
 As my laptop has a very small screen. I modified the weather code, so that the weather icone would fit the screen.<br />
 
 The line: 34 is the default configuration. And I commented (Using the #) The default line prints the Weather result in Celsius, (°C) and with informatition if the sky is cloudy.<br />
