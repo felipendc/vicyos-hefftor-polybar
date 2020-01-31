@@ -3,6 +3,7 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 
 
 **I know you also want to listen to this song... Hey, [Don't](https://www.youtube.com/watch?v=wVd0s7scl5U) tell [anybody](https://www.youtube.com/watch?v=hQ4r_kcvClE)...** <br />
+
 ![Demo-Pip](https://i.imgur.com/WHWA6ZE.jpg)
 
 ------
@@ -19,6 +20,7 @@ Look at those "Terminal, File Manager Chromium Browser and Pavucontrol". It will
 
 
 ***Oh, boy... Is the System-Tray back??? This is awesome! But, what about the Workspaces???***<br />
+
 Well, I was obligated to change the position of the Workspaces from the center to the left side. Why?<br />
 It's simple...<br />
 
