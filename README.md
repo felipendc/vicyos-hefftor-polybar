@@ -33,7 +33,7 @@ Look at those "Terminal, File Manager, Chromium Browser and Pavucontrol". It wil
 Well, I was obligated to change the position of the Workspaces from the center to the left side. Why?<br />
 It's simple...<br />
 
-1 - I'm very dependent on the System-tray (Sys-tray), On my daily usage, I use some apps that are just available on the System-tray.<br />
+1 - I'm very dependent on the System-tray (Sys-tray), in my daily usage, I use some apps that are just available on the System-tray.<br />
 2 - I use my laptop most of the time, and everywhere I bring it with me.<br />
 3 - Wifi Icon. When the Sys-tray is enable, I don't need to use some lines of code to connect to the internet.<br />
 4 - Oh, boy, image my sister or my mom, trying to use: 
