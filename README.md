@@ -142,7 +142,7 @@ Most of the modules on the Polybar has a diffrent icon and underline-format colo
 ------
 
 
-***Power Menu Not being overlayed anymore... Unless you have a smaller displat than my 14 inch diskplay laptop. Hahaha***<br />
+***Power Menu Not being overlayed anymore... Unless you have a smaller displat than my 14 inch display laptop. Hahaha***<br />
 
 Now, in this Polybar with both borders-sized to 16, when you click on the Power Menu its not overlayed due to lack of space.<br />
 If you still get problems with it getting overlayed, you will just need to downsize it.<br />
