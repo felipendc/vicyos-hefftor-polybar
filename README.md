@@ -213,6 +213,6 @@ Instead of XXXXX you will put your password<br />
 
 ![Demo](https://i.imgur.com/0PiJS3n.jpg) <br />
 
-This step-by-step to connect to your wifi was only possible thanks to [Brad Heffernan](https://www.youtube.com/watch?v=SXZYJ4fa0C0&t=159s)
+This step-by-step to connect to your wifi, was only possible thanks to [Brad Heffernan](https://www.youtube.com/watch?v=SXZYJ4fa0C0&t=159s)
 
 ------
