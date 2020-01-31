@@ -35,7 +35,7 @@ and<br />
 
 5 - Just to wrap it up about the Sys-Tray... I could've put it on the left or right side. But, It got all weird due to the lack of "Radius" support to get the rounded borders.<br />  
 
-I don't know if you noticed but, I also changed the Workspace Icon with circle with dots. I wanned some thing diffent and cool.<br />
+I don't know if you noticed but, I also changed the Workspace Icon with a circle rounded with dots. I wanned some thing diffent and cool.<br />
 ![Demo](https://i.imgur.com/1Yp2CWl.jpg)
 
 ------
