@@ -96,7 +96,9 @@ As in the screenshot down below.<br />
 
 ***Border right and left resized to get more room*** <br />
 
-As you know, my laptop has a "14.0-inch display". So, I had to resized the Polybar borders to get more space.<br /> 
+As you know, my laptop has a "14.0-inch display".<br />  
+So, I had to resized the Polybar borders to get more space.<br /> 
+
 In this Polybar version I've set the the default to: 16 for each side.<br /> 
 You can play around with the numbers, to fit your needs.<br />
 ![Demo](https://i.imgur.com/Aane1MZ.jpg)
@@ -112,12 +114,13 @@ Make your self at home! Feel free to make them sit your needs!<br />
 ------
 
 
-***Pavucontrol is in the building!!!*** <br />
+***Pavucontrol is now in the building!!!*** <br />
 
 I got very happy when I managed to create this module made it work. Why?<br />
-I think, I've forgot to mention that I also have a Desktop and It's very handy, when it comes to switch between audio-output.<br />
-The reason I made a module for pavucontrol is because the system-tray its option or icon.<br />
-And I'm constantly switching the audio-output from Headset to the speakers. And as I said, I'm not the only one how uses the computer.<br />
+I think, I've forgot to mention that I also have a Desktop and this module is very handy, when it comes to switch between audio-output.<br />
+
+The reason I made a module for pavucontrol is because the system-tray doesn't have its option.<br />
+And I'm constantly switching the audio-output from Headset to the speakers. And as I said, I'm not the only one who uses the computer.<br />
 
 ![Demo](https://i.imgur.com/rgUo5ci.jpg)
 
@@ -126,7 +129,7 @@ And I'm constantly switching the audio-output from Headset to the speakers. And 
 
 ***Different color for the Polybar modules***<br />
 
-Most of the modules on the Polybar has a diffrent icon and underline-format color for a better looking.<br />
+Most of the modules on the Polybar has a diffrent icon and underline-format color, for a better looking.<br />
 ![Demo](https://i.imgur.com/LeTMgC3.jpg)
 
 ------
