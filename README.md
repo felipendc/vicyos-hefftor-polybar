@@ -42,7 +42,7 @@ It's simple...<br />
 and<br /> 
 <pre>nmcli d wifi xxxx password xxxx</pre> 
 
-(Yeah, I now, I have commom sense).<br />
+(Yeah, I know, I have commom sense).<br />
 
 5 - Just to wrap up about the Sys-Tray subject... I could've put it on the left or right side of the Polybar. But, it got all weird, due to the lack of "Sys-Tray-Radius" support to get the rounded borders.<br />  
 
