@@ -214,7 +214,7 @@ Well, It's pretty simple. You just need to go to:<br />
 
 
 ## // IMPORTANT NOTE: 
-### Now, if you decide to remove the System-Tray... You will need to follow these steps down below. 
+### Now, if you decide to remove the System-Tray... You will need to follow these steps down below to access a Wifi connection. 
 
  ***Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />***
 
