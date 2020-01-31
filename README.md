@@ -1,7 +1,7 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/polybar-themes/master/previews/logo.png) <br />
 Down below you will find a modified version of the Polybar baked-in [Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk).<br /> 
 
-**If you want to try it out and don't know to install it...** In this [video](https://www.youtube.com/watch?v=Q2IhW4iGwGY&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3) I show step-by-step how to install the polybar. <br />
+**If you want to try it out and don't know to install it...** In this [video](https://www.youtube.com/watch?v=Q2IhW4iGwGY&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3), I show step-by-step how to install the polybar. <br />
 
 
 
