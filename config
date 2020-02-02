@@ -483,7 +483,7 @@ type = internal/memory
 
 ; Seconds to sleep between updates
 ; Default: 1
-interval = 3
+interval = 6
 ; Available tags:
 ;   <label> (default)
 ;   <bar-used>
