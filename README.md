@@ -247,6 +247,7 @@ This step-by-step to connect to your wifi, was only possible thanks to [Brad Hef
 ------
 
 ### Special Thanks to:
+[adi1090x](https://github.com/adi1090x/polybar-themes)
 [Erick Doubis](https://www.youtube.com/user/maclover696)<br />
 [Brad Heffernan](https://www.youtube.com/user/shamrock677)<br />
 [Marcos Oliveira](https://terminalroot.com.br/2019/07/uma-colecao-de-temas-prontos-para-seu-polybar.html)<br />
