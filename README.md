@@ -1,8 +1,14 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/polybar-themes/master/previews/logo.png) <br />
 Down below you will find a modified version of the Polybar baked-in [Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk).<br /> 
 
-**If you want to try it out and don't know how to install it...** In this [video](https://www.youtube.com/watch?v=Q2IhW4iGwGY&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3), I show step-by-step how to install the polybar. <br />
 
+**To make your live easier, you just need to watch these videos:**
+
+- [x] :fire: [Dark Polybar Installation!](https://www.youtube.com/watch?v=Q2IhW4iGwGY&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3) :fire:<br />
+- [x] :fire: [How to find your CPU Thermal Sensor Path Location for Polybar
+](https://www.youtube.com/watch?v=arD0JUP0pi0&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=2) :fire:<br />
+
+##
 ------
 
 ***Warning:*** This Polybar just gives support to Herbstluftwm (HLWM) and BSPWM. And I have just tested in Herbstluftwm, so far, due to lack of time.
