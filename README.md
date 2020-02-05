@@ -1,5 +1,5 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/polybar-themes/master/previews/logo.png) <br />
-Down below you will find a modified version of the Polybar baked-in :sunglasses::sparkling_heart:[Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk). :sparkling_heart::sunglasses:<br /> 
+Down below you will find a modified version of the Polybar baked-in :sunglasses:[Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk).:sunglasses:<br /> 
 
 <br>
 <br>
